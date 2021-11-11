@@ -101,7 +101,7 @@ input[type='number'] {
 }
 
 .btn:focus,
-.delete-btn:focus {
+.transaction-list__delete:focus {
   outline: 0;
 }
 
@@ -130,7 +130,7 @@ input[type='number'] {
   border-right: 5px solid #c0392b;
 }
 
-.delete-btn {
+.transaction-list__delete {
   cursor: pointer;
   background-color: #e74c3c;
   border: 0;
@@ -146,6 +146,6 @@ input[type='number'] {
   transition: opacity 0.3s ease;
 }
 
-.list li:hover .delete-btn {
+.list li:hover .transaction-list__delete {
   opacity: 1;
 }
