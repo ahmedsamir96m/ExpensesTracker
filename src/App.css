@@ -149,3 +149,9 @@ input[type='number'] {
 .list li:hover .transaction-list__delete {
   opacity: 1;
 }
+
+.balance {
+  font-size: 24px;
+  font-weight: bold;
+  color: rebeccapurple;
+}
